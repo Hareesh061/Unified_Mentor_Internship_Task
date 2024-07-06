@@ -1,0 +1,71 @@
+body {
+    font-family: sans-serif;
+    margin: 0 50px;
+    background-image: url('https://www.10wallpaper.com/wallpaper/1366x768/2211/iPhone_14_iOS_16_Blue_Abstract_Background_5K_1366x768.jpg');
+    background-size: 2000px 1000px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .app {
+    background-color: #ffffff;
+    width: 400px;
+    height: 520px;
+    border: 5px solid #0c0c0b;
+    border-radius: 20px;
+    padding: 15px;
+    overflow-y: scroll;
+  }
+  
+  .app::-webkit-scrollbar {
+    width: 0 !important;
+  }
+  
+  #addNew {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(171, 206, 161, 0.35);
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .fa-plus {
+    background-color: #abcea1;
+    padding: 3px;
+    border-radius: 3px;
+  }
+  
+  #tasks {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+  
+  #tasks div {
+    border: 3px solid #8dcd7b;
+    background-color: #e2eede;
+    border-radius: 10px;
+    padding: 5px;
+    display: grid;
+    gap: 4px;
+  }
+  
+  #tasks div .options {
+    justify-self: center;
+    display: flex;
+    gap: 20px;
+  }
+  
+  #tasks div .options i {
+    cursor: pointer;
+  }
+  
+  #msg {
+    color: red;
+  }
