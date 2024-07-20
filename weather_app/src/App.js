@@ -27,7 +27,7 @@ function App() {
         <input type="text" value={city} onChange={(e) => setCity(e.target.value)} 
         placeholder='Enter City Name' />
         <button onClick={()=>getWeatherbyCity()}>
-          <Search></Search>
+          Submit
         </button>
       </div>
 
