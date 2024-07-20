@@ -1,21 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap');
 
 body{
-    background-color: aliceblue;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url(https://img.freepik.com/free-photo/grassy-field-with-leafless-trees-distance-cloudy-sky-background_181624-4535.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     padding: 50px;
     font-family:'Poppins',sans-serif;
 }
 
 .app{
-    width: 400px;
+    width: 600px;
     padding: 25px;
     color: #e5e5e5;
     border-radius: 10px;
     box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.2);
-    background: linear-gradient(108deg,#821ea9,#7c43e0);
+    background: linear-gradient(108deg,#4036f5,#4ff3c7);
 }
 .app h1{
     text-align: center;
