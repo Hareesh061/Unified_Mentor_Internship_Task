@@ -51,25 +51,40 @@
 
 
 
+# Project Task2: Weather App
+
+**This Weather App is a simple and intuitive application built with React that allows users to get the current weather information for any city. The app utilizes the OpenWeatherMap API to fetch and display weather data, including temperature, wind speed, and weather description.**
+
+# Features
+
+**Search by City:** Users can enter the name of any city to get the current weather information.
+
+**Current Weather Details:** The app displays the current temperature, weather description, wind speed, and direction.
+
+**Dynamic Icons:** Weather conditions are represented with corresponding icons.
+
+**Formatted Date and Time:** The current date and time are displayed in a user-friendly format.
 
 
+# Installation
+**To run this application locally, follow these steps:**
+
+**1. Clone the Repository:**
+
+   git clone github_url
 
 
+**2. Navigate to the Project Directory:**
 
+   cd Weather_app
 
+**3. Install Dependencies:**
 
+   npm install
 
+**4. Start the Application:**
 
-
-
-
-
-
-
-
-
-
-
+   npm start
 
 
 
